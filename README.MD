@@ -11,7 +11,7 @@ The commands that are being executed in the redis of the cluster environment can
 2. support custom output types  
 3. support the monitoring of a specified machine, including master or salver  
 
-java -jar CLASS <address[host:port,host:port......]  
+java -jar CLASS <address[host:port,host:port......]>    
 java -jar RedisMonitor.jar master:7001,slaver:7001 
 
 output:  
