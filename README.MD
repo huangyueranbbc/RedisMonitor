@@ -5,6 +5,12 @@
 2.支持自定义输出类型  
 3.支持对指定机器的监控，包括master或者salver  
 
+The commands that are being executed in the redis of the cluster environment can be monitored.  
+
+1. support log4j log output  
+2. support custom output types  
+3. support the monitoring of a specified machine, including master or salver  
+
 java -jar CLASS <address[host:port,host:port......]  
 java -jar RedisMonitor.jar master:7001,slaver:7001 
 
